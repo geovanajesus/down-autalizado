@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+
+.cabecalho-barra{
+    background-color: #8B008B;
+    color:aliceblue;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.barra-topo{
+    display: flex;
+    gap: 50px;
+}
+
+.barra-topo-2 img {
+    margin: 0 7px;
+}
+
+.conteudo{
+    display: flex;
+    text-align: right;
+    background-color: #dcdfe24b;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 24px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.conteudo a{
+    text-decoration: none;
+    color: black;
+}
+
+.conteudo-meio img {
+    margin: 0 30px;
+    width: 200pxpx;
+}
+
+.fotos-inicio {
+    display: flex;
+    justify-content: center;
+}
+
+.fotos-inicio img {
+    margin: 0 5px;
+}
+
+.foto-direita {
+    flex-direction: column;
+}
+
+hr {
+    border: solid 1px orange;
+}
+
+.noticias {
+    display: flex;
+    justify-content: center;
+}
+
+.meio {
+    background-color: #dcdfe24b;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.meio h1 {
+    color: orange;
+    margin: 0 150px;
+}
+.noticias img {
+    width: 200px;
+}
+
+.noticia {
+    display: flex;
+    margin: 0 40px;
+    border: solid 0.2px;
+}
+
+.noticias p {
+    margin: 0 12px;
+    font-size: 18px;
+}
+
+#veja-mais {
+    background-color: orange;
+    margin: 7px 300px;
+    padding: 10px 20px;
+    color: white;
+}
+
+.to-brincando {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.to-brincando h1 {
+    color: rgb(112, 188, 255);
+}
+
+.tb-conteudo {
+    display: flex;
+}
+
+.brinquedo {
+    display: flex;
+    margin: 0 40px;
+    border: solid 0.2px;
+    font-size: 14px;
+}
+
+#veja-mais02 {
+    background-color: rgb(112, 188, 255);
+    margin: 7px 40px;
+    padding: 10px 20px;
+    color: rgb(255, 255, 255);
+}
+
+.rodape {
+    background-color: #9d9d9ed7;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: white;
+}
